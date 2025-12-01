@@ -1,0 +1,27 @@
+:root {
+    --text-sidebar: #ffff;
+    --primary-color: ##153753;
+    --background-color: #ebebeb;
+    --text-color: #545454;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* GRID */
+/* .grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;   
+}
+
+.grid_column_2 {
+
+} */
