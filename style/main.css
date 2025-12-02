@@ -1,199 +1,281 @@
 :root {
-    --text-sidebar: #ffff;
-    --primary-color: #153753;
-    --background-color: #ebebeb;
-    --text-color: #545454;
+  --text-sidebar: #ffff;
+  --primary-color: #153753;
+  --background-color: #ebebeb;
+  --text-color: #545454;
 }
 
 body {
-    background-color: #00d0ff;
-    display: flex;            
-    justify-content: center; /* Căn giữa ngang */
-    align-items: center;     /* Căn giữa dọc (nếu muốn)
+  background-color: #bcbcbc;
+  display: flex;
+  justify-content: center; /* Căn giữa ngang */
+  align-items: center; /* Căn giữa dọc (nếu muốn)
     min-height: 100vh;      
     margin: 0; */
-
 }
 
 .container {
-    width:  1050px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    border: 1px solid #153753;
+  width: 1070px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  border: 1px solid #153753;
 }
 
 .sidebar-left {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .img-cv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-cv--item {
-    width: 300px;
-    margin: 20px 20px 10px 20px;
-
+  width: 300px;
+  margin: 20px 20px 10px 20px;
 }
 
 .infor-contact {
-
 }
 
 .title-infor {
-    font-size: 27px;
-    color: var(--text-sidebar);
-        text-decoration: underline;
-    margin: 20px 0 10px 10px;
+  font-size: 27px;
+  color: var(--text-sidebar);
+  text-decoration: underline;
+  margin: 20px 0 10px 10px;
 }
 
 .infor-contact-list {
-    color: var(--text-sidebar);
-    margin-left: 14px;
-    list-style-type: none;
-
-
+  color: var(--text-sidebar);
+  margin-left: 14px;
+  list-style-type: none;
 }
 
-.infor-contact__item {
-    font-size: 1.4rem;
-    line-height: 2.2rem;
-
+.infor-contact__item,
+.infor-contact__item-link--saperate {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
 .infor-contact__item--separate {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .infor-contact-skill-list {
-    color: var(--text-sidebar);
-    margin-left: 14px;
-    list-style-type: disc; 
-    padding-left: 15px;
-
+  color: var(--text-sidebar);
+  margin-left: 14px;
+  list-style-type: disc;
+  padding-left: 15px;
 }
 
 .infor-contact-skill__item {
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
 
+.infor-contact__item-link--saperate {
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+.infor-contact__item-link--saperate:hover {
+  text-decoration: underline;
+  color: #00d0ff;
 }
 
 /* SIDEBAR-RIGHT */
-.sidebar-right{
-    background-color: #ffff;
+.sidebar-right {
+  background-color: #ffff;
 }
 
-.pramary-name {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.primary-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .name {
-    font-size: 2.7rem;
-    color: var(--primary-color);
+  font-size: 2.7rem;
+  color: var(--primary-color);
 }
 
-.postion-cv__item  {
-    font-size: 2.2rem;
-    color: var(--primary-color);
-    border-bottom: 3px solid var(--primary-color);
+.position-cv__item {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  margin-top: -20px;
+  margin-bottom: 5px;
 }
 
 .infor-contact-right {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .title-infor-right {
-    margin-top: 3rem;
-    color: var(--primary-color);
-    border-bottom: 4px solid var(--primary-color);
+  margin-top: 1rem;
+  color: var(--primary-color);
+  border-bottom: 4px solid var(--primary-color);
 }
 
 .des-local-business {
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    text-align: justify; 
-    text-align-last: left;
-    padding-right: 10px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  text-align: justify;
+  text-align-last: left;
+  padding-right: 10px;
 }
 
 .exp-job-cv {
-    color: var(--primary-color);
-    padding-right: 5px;
-    margin-top: 20px;
+  color: var(--primary-color);
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .name-company {
-    font-size: 1.15rem;
+  font-size: 1.15rem;
 }
 
 .name-company--item {
-
 }
 
 .pos-job {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    font-size: 1.4rem;
-    padding: 8px
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 1.4rem;
+  padding: 8px;
 }
 
 .pos-job-company {
-
 }
 
 .desc-job {
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-    padding-left: 15px;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding-left: 15px;
 }
 
 .desc-job--item {
-    list-style-type: disc;
+  list-style-type: disc;
 }
 
 .project {
-    margin-left: 10px;
-    color: var(--primary-color)
+  margin-left: 10px;
+  color: var(--primary-color);
 }
 
 .title-project {
-
 }
 
 .project-name {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
 }
 
 .project-born--item {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .postion-project {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    margin-left: 10px;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-left: 10px;
 }
 
 .desc-project {
-    padding-left: 1.8rem;
+  padding-left: 1.8rem;
 }
 
 .desc-project--item-separate {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .respect {
+  display: flex;
+  justify-content: center;
+}
+
+/* RESPONSIVE */
+* {
+  box-sizing: border-box; 
+}
+
+/* MOBILE FIX */
+@media screen and (max-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sidebar-left {
+    width: 100%;
+    padding: 20px; 
+    text-align: center; 
+  }
+
+
+  .infor-contact-list,
+  .infor-contact-skill-list {
+    padding-left: 0; 
+    margin: 0;
+    list-style: none; 
+  }
+
+  .infor-contact__item,
+  .infor-contact-skill__item {
+    width: 100%; 
+    word-break: break-word; 
+  }
+
+
+  .title-infor {
+    font-size: 1.2rem; 
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+    padding-bottom: 5px;
+    display: inline-block; 
+  }
+
+  .img-cv {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .img-cv img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+  }
+
+  .primary-name {
+    text-align: center;
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+
+  .name {
+    font-size: 1.5rem !important; 
+    line-height: 1.3; 
+    margin-bottom: 10px;
+  }
+
+
+  .position-cv__item {
+    font-size: 1rem !important; 
+    margin-top: 0;
+  }
+}
+
+.desc-project--item-separate, a {
+  word-break: break-word; /* Lệnh ép buộc: "Hết chỗ thì bẻ gãy từ xuống dòng ngay cho bố!" */
+  overflow-wrap: break-word; 
 }
