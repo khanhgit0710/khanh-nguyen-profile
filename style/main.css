@@ -56,7 +56,7 @@ body {
 .infor-contact__item,
 .infor-contact__item-link--saperate {
   font-size: 1.4rem;
-  line-height: 2.2rem;
+  line-height: 2.6rem;
 }
 
 .infor-contact__item--separate {
@@ -72,7 +72,7 @@ body {
 
 .infor-contact-skill__item {
   font-size: 1.4rem;
-  line-height: 2.2rem;
+  line-height: 2.5rem;
 }
 
 .infor-contact__item-link--saperate {
@@ -237,7 +237,7 @@ body {
 
   .title-infor {
     font-size: 1.2rem; 
-    margin-top: 20px;
+    margin-top: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
     padding-bottom: 5px;
     display: inline-block; 
@@ -279,3 +279,25 @@ body {
   word-break: break-word; /* Lệnh ép buộc: "Hết chỗ thì bẻ gãy từ xuống dòng ngay cho bố!" */
   overflow-wrap: break-word; 
 }
+
+/* Tạo hiệu ứng mờ dần hiện ra */
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Dịch xuống dưới xíu */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Áp dụng cho các khối nội dung */
+.section-right, .infor-contact, .exp-job-cv, .container {
+    animation: fadeInSlide 0.8s ease-out forwards;
+}
+
+/* Chỉnh delay cho từng thằng xuất hiện lần lượt cho đẹp */
+.section-right:nth-child(1) { animation-delay: 0.2s; }
+.section-right:nth-child(2) { animation-delay: 0.4s; }
+.section-right:nth-child(3) { animation-delay: 0.4s; }
