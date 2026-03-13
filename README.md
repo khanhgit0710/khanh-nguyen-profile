@@ -31,14 +31,6 @@
 
 ---
 
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=khanhgit0710&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khanhgit0710&theme=radical&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
 ### 📫 Kết nối với tui
 - 📧 Email: khanhnguyen0710it@gmail.com
 - 📍 Location: Thu Duc - Ho Chi Minh City
