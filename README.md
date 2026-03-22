@@ -1,41 +1,45 @@
-# 👋 Chào mọi người! Tui là Khánh (Nguyen Le Minh Khanh)
+# Hi there, I'm Nguyen Le Minh Khanh 👋 
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=EE4D2D&width=435&lines=Software+Engineer;Frontend+Developer;Next.js+%26+React+Enthusiast;Future+Technical+Manager" alt="Typing SVG" />
-</div>
+### 🚀 Frontend Developer (Fresher) | Master's Degree Candidate
 
-### 🚀 Về tui
-- 🎓 **Software Engineering** graduate from **HUTECH**.
-- 💻 Đam mê xây dựng giao diện người dùng (UI/UX) mượt mà và xử lý hệ thống.
-- 🛠 Kinh nghiệm thực tập với **Next.js (LMS Platforms)** và quản trị **WordPress CMS**.
-- 🛵 **Fun Fact:** Từng là "Chiến thần ShopeeFood" cày đêm để nuôi giấc mơ Kỹ sư. Sự lỳ lợm ngoài đường phố giúp tui không bao giờ bỏ cuộc trước bất kỳ dòng code khó nào! haha
+I am a dedicated Software Engineering graduate with a strong passion for building high-quality, scalable web applications. Currently, I am advancing my professional journey by pursuing a **Master’s Degree in Information Technology**, aiming to bridge the gap between technical excellence and strategic leadership.
+
+- 🔭 I’m currently working on: **K-Market - A Fullstack E-commerce Platform**
+- 🌱 I’m currently learning: **Advanced System Architecture & Cloud Native Applications**
+- 🎓 Upcoming Milestone: **Master of Information Technology (In Progress)**
+- ⚡ Fun fact: I survived Next.js 15 security patches and 40+ deployments in 2 days! 😂
 
 ---
 
-### 🛠 Vũ khí hạng nặng (Tech Stack)
+### 🛠 Tech Stack
 
 | Category | Technologies |
-| :--- | :--- |
-| **Frontend** | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white) |
-| **Backend** | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) ![.NET](https://img.shields.io/badge/-.NET-512BD4?logo=dotnet&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) |
-| **Tools** | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) ![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?logo=adobe-photoshop&logoColor=white) ![WordPress](https://img.shields.io/badge/-WordPress-21759B?logo=wordpress&logoColor=white) |
+|---|---|
+| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js) ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat&logo=tailwindcss) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript) |
+| **Backend & DB** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet) |
+| **Tools** | ![Vercel](https://img.shields.io/badge/Vercel-black?style=flat&logo=vercel) ![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat&logo=clerk) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git) |
 
 ---
 
-### 🎯 Lộ trình tác chiến (Roadmap)
+### 🌟 Featured Project: [K-Market](https://k-market-react-fullstack.vercel.app)
+**Fullstack E-commerce Platform built with Next.js 15 & React 19.**
 
-- [x] **Hiện tại:** Master Next.js 15, Tailwind v4 và hoàn thiện hệ sinh thái **K-Market Fullstack**.
-- [ ] **1-2 năm tới:** Trở thành Junior/Middle Developer, tích lũy sính lễ **4 cây vàng** rước nàng về dinh. 💍
-- [ ] **3-5 năm tới:** Hoàn thành chương trình **Thạc sĩ (Master of IT)**, nâng tầm tư duy quản trị.
-- [ ] **Đích đến:** Trở thành **Technical Manager** và lái em **Honda Civic RS** đi làm mỗi sáng. 🏎️💨
+- **Core Features:** Dynamic Filtering, Global Cart Management (Zustand), Secure Auth (Clerk).
+- **Architecture:** Server Actions, Optimized Static Rendering, MongoDB Atlas integration.
+- **Outcome:** A production-ready platform with a 100% "Green" deployment status on Vercel.
+
+[👉 View Repository](https://github.com/khanhgit0710/k-market-react-fullstack) | [🌐 Live Demo](https://k-market-react-fullstack.vercel.app)
+
+---
+
+### 📈 GitHub Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=khanhgit0710&show_icons=true&theme=dark" alt="Khanh's Stats" />
+</p>
 
 ---
 
-### 📫 Kết nối với tui
-- 📧 Email: khanhnguyen0710it@gmail.com
-- 📍 Location: Thu Duc - Ho Chi Minh City
-
----
-*“Kỷ luật thép là con đường ngắn nhất dẫn tới sự tự do và thành công.”*
-**Hành trình từ yên xe máy đến vô lăng Civic RS bắt đầu từ đây!** 🚀
-**Cảm ơn mọi người đã đọc và đến ^_^ thanksss**
+### 📫 Connect with me:
+- **Email:** khanhnguyen0710it@gmail.com
+- **Zalo:** 0815-787-710
+- **LinkedIn:** [linkedin.com/in/khanh-nguyen](https://www.linkedin.com/)
