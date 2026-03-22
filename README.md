@@ -16,7 +16,7 @@ I am a dedicated Software Engineering graduate with a strong passion for buildin
 | Category | Technologies |
 |---|---|
 | **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js) ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat&logo=tailwindcss) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript) |
-| **Backend & DB** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet) |
+| **Backend & DB** |![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet) |
 | **Tools** | ![Vercel](https://img.shields.io/badge/Vercel-black?style=flat&logo=vercel) ![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat&logo=clerk) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git) |
 
 ---
@@ -41,5 +41,3 @@ I am a dedicated Software Engineering graduate with a strong passion for buildin
 
 ### 📫 Connect with me:
 - **Email:** khanhnguyen0710it@gmail.com
-- **Zalo:** 0815-787-710
-- **LinkedIn:** [linkedin.com/in/khanh-nguyen](https://www.linkedin.com/)
