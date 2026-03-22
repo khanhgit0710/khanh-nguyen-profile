@@ -296,6 +296,21 @@ body {
   overflow-wrap: break-word; 
 }
 
+.respect-item--link {
+  display: inline-block;
+  color: #153753;
+  padding: 2px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.respect-item--link:hover {
+  color: #2868ff;
+  
+}
+
 /* Tạo hiệu ứng mờ dần hiện ra */
 @keyframes fadeInSlide {
     from {
